@@ -4,7 +4,7 @@ require("cloud/app.js");
 var mlog = require('cloud/mlog');
 var mutil = require('cloud/mutil');
 var muser = require('cloud/muser');
-var madd=require('cloud/madd');
+//var madd=require('cloud/madd');
 var mgroup=require('cloud/mgroup.js');
 var msign=require('cloud/msign.js');
 var mqiniu=require('cloud/mqiniu');
