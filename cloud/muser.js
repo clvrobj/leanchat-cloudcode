@@ -95,7 +95,9 @@ function findRandomAvatar(){
     q.limit(1);
     q.ascending('createdAt');
     q.first().then(function(avatar){
-      p.resolve(avatar);
+      try {
+        p.resolve(avatar);
+      } catch(e) {}
     },mutil.rejectFn(p));
   },mutil.rejectFn(p));
   return p;
